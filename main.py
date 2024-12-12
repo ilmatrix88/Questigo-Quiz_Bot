@@ -5,10 +5,10 @@ import asyncio
 import os
 
 # Токен вашего бота
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("7726976750:AAFkjAckKE-kRTtOpdcFkn1BfLyWAfRWRmI")
 
 # Инициализация бота и диспетчера
-bot = Bot(token=TOKEN)
+bot = Bot(token=7726976750:AAFkjAckKE-kRTtOpdcFkn1BfLyWAfRWRmI)
 dp = Dispatcher()
 
 # Глобальные переменные для квиза
