@@ -11,6 +11,9 @@ TOKEN = os.getenv("7726976750:AAFkjAckKE-kRTtOpdcFkn1BfLyWAfRWRmI")
 bot = Bot(token=7726976750:AAFkjAckKE-kRTtOpdcFkn1BfLyWAfRWRmI)
 dp = Dispatcher()
 
+# Загрузка базы вопросов
+df = pd.read_csv("quiz_questions.csv")
+
 # Глобальные переменные для квиза
 current_question_index = 0
 score = 0
